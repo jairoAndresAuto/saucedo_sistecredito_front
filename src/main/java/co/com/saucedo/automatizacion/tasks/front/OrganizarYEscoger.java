@@ -1,13 +1,11 @@
 package co.com.saucedo.automatizacion.tasks.front;
 
-import co.com.saucedo.automatizacion.interactions.Espera;
+
 import com.github.javafaker.Faker;
-import lombok.AllArgsConstructor;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
