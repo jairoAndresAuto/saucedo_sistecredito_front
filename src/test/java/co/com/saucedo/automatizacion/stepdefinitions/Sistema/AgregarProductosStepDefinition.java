@@ -1,6 +1,5 @@
 package co.com.saucedo.automatizacion.stepdefinitions.Sistema;
 
-import co.com.saucedo.automatizacion.questions.ValidarCantidad;
 import co.com.saucedo.automatizacion.questions.ValidarMensaje;
 import co.com.saucedo.automatizacion.questions.ValidarSubTotal;
 import co.com.saucedo.automatizacion.questions.ValidarTotal;
@@ -8,12 +7,8 @@ import co.com.saucedo.automatizacion.tasks.front.IngrasarAlCarrito;
 import co.com.saucedo.automatizacion.tasks.front.OrganizarYEscoger;
 import co.com.saucedo.automatizacion.tasks.front.RealizarCheckout;
 import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
-
-import java.util.List;
-import java.util.Map;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;

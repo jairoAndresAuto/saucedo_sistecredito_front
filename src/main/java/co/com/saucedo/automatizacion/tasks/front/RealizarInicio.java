@@ -11,7 +11,6 @@ import net.serenitybdd.screenplay.ui.Button;
 import static co.com.saucedo.automatizacion.userinterfaces.AccesoUI.PASSWORD_FIELD;
 import static co.com.saucedo.automatizacion.userinterfaces.AccesoUI.USER_FIELD;
 import static co.com.saucedo.automatizacion.util.Constantes.LOGIN;
-import static co.com.saucedo.automatizacion.util.Utilidades.codificacionBase64;
 
 @AllArgsConstructor
 public class RealizarInicio implements Task {

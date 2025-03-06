@@ -14,7 +14,6 @@ import java.util.Locale;
 
 import static co.com.saucedo.automatizacion.userinterfaces.ArticulosUI.*;
 import static co.com.saucedo.automatizacion.util.Constantes.ESPANIOL;
-import static co.com.saucedo.automatizacion.util.Constantes.QUINIENTOS;
 
 
 public class OrganizarYEscoger implements Task {
@@ -25,7 +24,6 @@ public class OrganizarYEscoger implements Task {
         Faker faker = new Faker(new Locale(ESPANIOL));
         int cantidadUno = BTN_ADD_CART.resolveAllFor(actor).size() - 1;
         BTN_ADD_CART.resolveAllFor(actor).get(faker.random().nextInt(0, cantidadUno)).click();
-        actor.attemptsTo(Espera.unTiempo(QUINIENTOS));
         int cantidadDos = BTN_ADD_CART.resolveAllFor(actor).size() - 1;
         BTN_ADD_CART.resolveAllFor(actor).get(faker.random().nextInt(0, cantidadDos)).click();
         List<String> nombres = LBL_NOMBRES.resolveAllFor(actor).texts();

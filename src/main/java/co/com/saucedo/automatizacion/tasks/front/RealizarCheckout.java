@@ -1,15 +1,12 @@
 package co.com.saucedo.automatizacion.tasks.front;
 
-import co.com.saucedo.automatizacion.interactions.Espera;
 import com.github.javafaker.Faker;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-
 import java.util.Locale;
-
 import static co.com.saucedo.automatizacion.userinterfaces.ArticulosUI.BTN_CHECKOUT;
 import static co.com.saucedo.automatizacion.userinterfaces.ArticulosUI.BTN_CONTINUAR;
 import static co.com.saucedo.automatizacion.userinterfaces.ArticulosUI.TXT_APELLIDO;
